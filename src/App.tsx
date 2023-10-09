@@ -1,10 +1,12 @@
-import "./styles.css";
+import * as C from "./App.styles";
 
-export default function App() {
-  return (
-    <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
-    </div>
-  );
-}
+const App = () => {
+  return;
+  <C.Container>
+    <C.Map>
+    </C.Map>
+
+  </C.Container>;
+};
+
+export default App;
